@@ -37,10 +37,10 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)    &kp LS(NUMBER_5)    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)     &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp BSPC
-&trans  &kp N1            &kp N2            &kp N3            &kp N4              &kp N5              &kp N6            &kp N7               &kp N8            &kp N9            &kp N0            &trans
-&trans  &trans            &kp LS(GRAVE)     &kp GRAVE         &kp LS(LEFT_BRACE)  &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp LS(RIGHT_BRACE)  &trans            &kp KP_NUMLOCK    &kp LEFT_WIN      &trans
-                                            &trans            &trans              &trans              &kp BACKSPACE     &trans               &kp SEMICOLON
+&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)    &kp LS(NUMBER_5)    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)     &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp BSPC
+&trans  &kp N1            &kp N2            &kp N3            &kp N4              &kp N5              &kp N6            &kp N7               &kp N8             &kp N9            &kp N0            &trans
+&trans  &trans            &kp LS(GRAVE)     &kp GRAVE         &kp LS(LEFT_BRACE)  &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp LS(RIGHT_BRACE)  &trans             &kp KP_NUMLOCK    &kp LEFT_WIN      &trans
+                                            &trans            &trans              &trans              &kp BACKSPACE     &trans               &kp LS(SEMICOLON)
             >;
         };
 
