@@ -39,7 +39,7 @@
             bindings = <
 &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)    &kp LS(NUMBER_5)    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)     &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp BSPC
 &trans  &kp N1            &kp N2            &kp N3            &kp N4              &kp N5              &kp N6            &kp N7               &kp N8             &kp N9            &kp N0            &trans
-&trans  &trans            &kp LS(GRAVE)     &kp GRAVE         &kp LS(LEFT_BRACE)  &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp LS(RIGHT_BRACE)  &trans             &kp KP_NUMLOCK    &kp LEFT_WIN      &trans
+&trans  &trans            &kp LS(GRAVE)     &kp GRAVE         &kp LS(LEFT_BRACE)  &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp LS(RIGHT_BRACE)  &trans             &trans            &kp LEFT_WIN      &trans
                                             &trans            &trans              &trans              &kp BACKSPACE     &trans               &kp LS(SEMICOLON)
             >;
         };
@@ -62,9 +62,9 @@
 
         function_layer {
             bindings = <
-&trans  &kp F1    &kp F2        &kp F3        &kp F4         &kp F5        &kp F6         &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&trans  &kp F11   &kp F12       &trans        &bt BT_DISC 2  &trans        &trans         &trans  &trans  &trans  &trans   &trans
-&trans  &kp CAPS  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_CLR    &trans         &trans  &trans  &trans  &tog 0   &kp PRINTSCREEN
+&trans  &kp F1    &kp F2        &kp F3        &kp F4         &kp F5        &kp F6         &kp F7  &kp F8  &kp F9  &kp F10         &trans
+&trans  &kp F11   &kp F12       &trans        &bt BT_DISC 2  &trans        &trans         &trans  &trans  &trans  &trans          &trans
+&trans  &kp CAPS  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_CLR    &trans         &trans  &trans  &trans  &kp KP_NUMLOCK  &kp PRINTSCREEN
                                 &trans        &trans         &kp SPACE     &kp BACKSPACE  &trans  &trans
             >;
 
