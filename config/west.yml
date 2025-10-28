@@ -5,6 +5,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: gpeye                         #new entry
       url-base: https://github.com/GPeye  #new entry
+    - name: dsifry #new entry
+      url-base: https://github.com/dsifry #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -13,5 +15,8 @@ manifest:
     - name: hammerbeam-slideshow          #new entry
       remote: gpeye                       #new entry
       revision: main                      #new entry
+    - name: nice-view-mod #new entry
+      remote: dsifry #new entry
+      revision: main #new entry
   self:
     path: config
